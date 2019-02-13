@@ -17,7 +17,7 @@ public class AppTest
     public void subtract()
     {
         App calc = new App();
-        int result = calc.subtract(6,4);
-        assertEquals(2,result);
+        int result = calc.subtract(2,1);
+        assertEquals(1,result);
     }
 }
