@@ -5,19 +5,14 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    /* Rigorous Test :-) */
     @Test
     public void subtract()
     {
         App calc = new App();
-        int result = calc.subtract(6,4);
-        assertEquals(2,result);
+        int result = calc.subtract(8,5);
+        assertEquals(3,result);
     }
 }
